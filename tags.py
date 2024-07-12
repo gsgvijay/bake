@@ -25,6 +25,7 @@ async def main(tag_name, count):
         async for vid in tag.videos(count=count):
             print(vid)
             print(vid.as_dict)
+            print('--------------')
         print()
 
 if __name__ == "__main__":
